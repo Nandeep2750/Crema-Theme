@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/apps/ToDo/TasksList/TaskCalendar/calendar.css"],"names":[],"mappings":"AAAA,oDACI,4BACJ","file":"18.15135e9a.chunk.css","sourcesContent":[".rbc-event, .rbc-event:focus, .rbc-event.rbc-selected {\r\n    background-color: transparent;\r\n}"]}
