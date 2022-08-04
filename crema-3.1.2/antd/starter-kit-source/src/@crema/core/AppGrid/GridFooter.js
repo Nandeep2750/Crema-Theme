@@ -1,5 +1,6 @@
 import React from 'react';
 import {Progress} from 'antd';
+import PropTypes from 'prop-types';
 import './index.style.less';
 
 const GridFooter = ({loading, footerText}) => {
@@ -17,6 +18,16 @@ const GridFooter = ({loading, footerText}) => {
       </div>
     );
   }
+};
+
+GridFooter.propTypes = {
+  loading: PropTypes.bool.isRequired,
+  footerText: PropTypes.string.isRequired,
+};
+
+GridFooter.defaultProps = {
+  loading: false,
+  footerText: '',
 };
 
 export default GridFooter;
